@@ -1,5 +1,5 @@
 import React from 'react'
-import Tetris from '.components/Tetris'
+import Tetris from './components/Tetris'
 
 // explicit return
 const App = () => (

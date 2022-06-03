@@ -17,6 +17,9 @@ const Tetris = () => {
           <Display text="Level" />
         </div>
       </aside>
+      <Start />
     </div>
   )
 }
+
+export default Tetris
