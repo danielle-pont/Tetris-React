@@ -10,7 +10,9 @@ const Stage = ({ stage }) => (
     <div>
       {/* <Cell /> */}
       {stage?.map((row) =>
-        row?.map((cell, x) => <Cell key={x} type={cell[0]} />)
+        row?.map(function (cell, x) {
+          return <Cell key={x} type={cell[0]} />
+        })
       )}
     </div>
   </>
