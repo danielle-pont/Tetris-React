@@ -13,9 +13,9 @@ const Tetris = () => {
   //TODO: Place stage in a custom hook.
   return (
     <div>
-      <Stage stage={createStage()} />
       <aside>
         <div>
+          <Stage stage={createStage()} />
           <Display text="Score" />
           <Display text="Rows" />
           <Display text="Level" />
