@@ -9,11 +9,11 @@ const Stage = ({ stage }) => (
   <>
     <div>
       {/* <Cell /> */}
-      {stage?.map((row) =>
-        row?.map(function (cell, x) {
+      {stage?.map((row) => {
+        return row?.map(function (cell, x) {
           return <Cell key={x} type={cell[0]} />
         })
-      )}
+      })}
     </div>
   </>
 )
